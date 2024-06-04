@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+.hero-section {
+    background-color: #1db954;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.card {
+    margin: 20px 0;
+    border: none;
+}
+.card img {
+    border-radius: 10px;
+}
+.testimonial-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+.testimonial {
+    margin: 20px;
+}
+.pricing-table {
+    padding: 60px 0;
+}
+.pricing-table h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.testimonial:hover{
+    background-color: red;
+    transform: translateX(300px);
+    color: #ddd;
+    transition: all 1s ease-in-out;
+}
+
+img{
+    height: 500px;
+    object-fit: cover;
+}
